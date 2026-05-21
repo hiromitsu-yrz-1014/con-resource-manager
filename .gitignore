@@ -1,0 +1,31 @@
+# Nuxt dev/build outputs
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pid
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Nuxt 3/4 output
+.nuxt/
+.output/
+.nitro/
+.cache/
+dist/
+
+# Development environment variables (Supabaseの鍵などを含むため絶対公開NG)
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
