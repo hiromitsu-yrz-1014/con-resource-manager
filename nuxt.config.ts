@@ -25,15 +25,18 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
   
-  // @nuxtjs/supabase を追加
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/supabase'
   ],
 
-  // Supabaseの設定（リダイレクトを一旦オフにして開発しやすくする）
   supabase: {
     redirect: false
+  },
+
+  // ✨ Netlifyでのビルドを成功させるための出力を明示的に追加
+  nitro: {
+    preset: 'netlify'
   },
 
   compatibilityDate: '2026-05-20'
