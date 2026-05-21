@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "//": "nuxt build  → nuxt generate   npm run build → nuxt generate",
-    "build": "nuxt generate",
+    "build": "uxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
