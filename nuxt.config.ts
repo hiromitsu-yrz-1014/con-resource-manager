@@ -34,7 +34,7 @@ export default defineNuxtConfig({
     redirect: false
   },
 
-  // ✨ Netlifyでのビルドを成功させるための出力を明示的に追加
+  // ✨ パッケージ不要！NitroにNetlify用の標準ビルドを行うよう直接指示
   nitro: {
     preset: 'netlify'
   },
