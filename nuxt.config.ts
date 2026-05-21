@@ -36,7 +36,7 @@ export default defineNuxtConfig({
 
   // ✨ パッケージ不要！NitroにNetlify用の標準ビルドを行うよう直接指示
   nitro: {
-    preset: 'netlify'
+    preset: 'netlify' // 'netlify' または 'static'
   },
 
   compatibilityDate: '2026-05-20'
